@@ -33,18 +33,7 @@ body {
 }
 
 header {
-    background: linear-gradient(
-        120deg,
-        hsl(0deg 0% 3%) 16%,
-        hsl(344deg 0% 13%) 59%,
-        hsl(344deg 0% 22%) 74%,
-        hsl(344deg 0% 32%) 84%,
-        hsl(344deg 0% 42%) 90%,
-        hsl(344deg 0% 53%) 95%,
-        hsl(344deg 0% 64%) 98%,
-        hsl(344deg 0% 76%) 99%,
-        hsl(344deg 0% 88%) 100%,
-        hsl(0deg 0% 100%) 100%);
+    background: radial-gradient(circle at 50%, #333 5%, #333 5%, #191818 90%);
     width: 100%;
 }
 
